@@ -1,6 +1,10 @@
 /*FONTS*/
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 /*UnIvErSaL*/
+a, a:hover{
+  text-decoration: none;
+}
+/*Header*/
 .logo-img{
   height: 70px;
 }
@@ -9,7 +13,14 @@
   color: #F2767E; /*orange/pink highlight*/
 
 }
-
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-item: flex-end;
+}
+.logo-wrapper{
+  width: 50%;
+}
 /*Jumbotron StYlEs*/
 .jumbotron{
   background-image: url('../img/hero.jpg');
@@ -29,4 +40,33 @@
 }\
 .product-img{
   padding: 0px 7.5px;
+}
+/*Footer*/
+footer{
+  height: 150px;
+  background-color: #333;
+  padding: 16px;
+}
+footer a, footer a:hover {
+  color: #BFC0C1;
+}
+footer img.logo-img{
+  width: 120px;
+}
+.address-border{
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+address, address>a{
+  color: #BFC0C1;
+}
+
+address>a:hover{
+  color: #BFC0C1;
+  text-decoration: none;
+}
+dis-block{
+  display: block;
+}
+.copyright{
+  color: #505050;
 }
