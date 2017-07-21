@@ -70,3 +70,11 @@ dis-block{
 .copyright{
   color: #505050;
 }
+/*Contacts*/
+.doctors h3{
+  margin-top: 0px;
+}
+iframe{
+  height: 300px;
+  width: 450px;
+}
